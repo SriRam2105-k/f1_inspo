@@ -55,7 +55,7 @@ export default function About() {
         <div className="about-image-wrap">
           <div className="about-image-inner">
             <Image
-              src="/me professional.jpeg"
+              src={`${process.env.NODE_ENV === 'production' ? '/f1_inspo' : ''}/me professional.jpeg`}
               alt="Sri Ram K"
               fill
               className="object-cover"
