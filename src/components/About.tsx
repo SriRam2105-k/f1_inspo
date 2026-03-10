@@ -58,7 +58,7 @@ export default function About() {
               src={`${process.env.NODE_ENV === 'production' ? '/f1_inspo' : ''}/me professional.jpeg`}
               alt="Sri Ram K"
               fill
-              className="object-cover"
+              className="object-cover object-top"
               sizes="(max-width: 768px) 100vw, 340px"
             />
           </div>
